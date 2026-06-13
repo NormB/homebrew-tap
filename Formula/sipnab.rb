@@ -1,7 +1,6 @@
 class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://www.sipnab.com"
-  version "0.4.2"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
