@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://www.sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.4.8"
+  version "0.4.9"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.4.8/sipnab-0.4.8-aarch64-apple-darwin.tar.gz"
-      sha256 "e6082c35f00d2f8ce55242a7c555de44100f1d929268b81e8e4f63852a81c0b9"
+      url "https://github.com/NormB/sipnab/releases/download/v0.4.9/sipnab-0.4.9-aarch64-apple-darwin.tar.gz"
+      sha256 "346f97d46de02b2cb2a23357aa7c667ec446786aca3528fb9991fdcf9e8fa6b7"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.4.8/sipnab-0.4.8-x86_64-apple-darwin.tar.gz"
-      sha256 "398506f8ae249e7957dbfbc66d4bb7ba06ae1055a6198b2591330a9a05b21546"
+      url "https://github.com/NormB/sipnab/releases/download/v0.4.9/sipnab-0.4.9-x86_64-apple-darwin.tar.gz"
+      sha256 "1e86e31081f6749ed3121c22c58185fbeda60d8220fb0098cecc14395bbf7580"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.4.8/sipnab-0.4.8-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "88b77369aa2a41683140a2a620bc94a94d417193b19bc078f31dfcdcb5571d67"
+      url "https://github.com/NormB/sipnab/releases/download/v0.4.9/sipnab-0.4.9-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "eb49216307687ad90528367812b0e097631b241f25eaac8bcb9c9b13fc51a65b"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.4.8/sipnab-0.4.8-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "45915d0215c12651725c1b355079294e54296bf0e6ce494d64b6976f751ce72d"
+      url "https://github.com/NormB/sipnab/releases/download/v0.4.9/sipnab-0.4.9-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d7feef897bb4f68304640be441e46ff0edff92b0cc8b67f6c0195d18732d2375"
     end
   end
 
