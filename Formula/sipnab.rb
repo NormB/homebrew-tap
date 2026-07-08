@@ -7,11 +7,11 @@ class Sipnab < Formula
   on_macos do
     on_arm do
       url "https://github.com/NormB/sipnab/releases/download/v0.5.0/sipnab-0.5.0-aarch64-apple-darwin.tar.gz"
-      sha256 "15e5405b8d3a0330ddb32c0329c67aeac052b93b07585ba4971ef62156d1e500"
+      sha256 "e3f2bbd101f38e2e09ac1023f29714d816cedb24b6e348f5c919bbe9fb2c4316"
     end
     on_intel do
       url "https://github.com/NormB/sipnab/releases/download/v0.5.0/sipnab-0.5.0-x86_64-apple-darwin.tar.gz"
-      sha256 "9201c2ca78ac776ebad5fe189cbd1ad5539ba57347ed0b5b58003de94343eccd"
+      sha256 "829ecec030fecc8e1c0d9cb907d6a3370e123a86544a3403c5a25fd3ebc4c5d2"
     end
   end
 
@@ -20,11 +20,11 @@ class Sipnab < Formula
     depends_on "libpcap"
     on_arm do
       url "https://github.com/NormB/sipnab/releases/download/v0.5.0/sipnab-0.5.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "124c6f95511e32dc88ade7434b4df7548c02a9f5f14794c1f96579ffa153a790"
+      sha256 "d296d3232f6995dbae8a9cd2045f81e09b23d2e2326c1fa208b213b19f63c78d"
     end
     on_intel do
       url "https://github.com/NormB/sipnab/releases/download/v0.5.0/sipnab-0.5.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7fd3ae622fbfe6a554e22ea95875f1b1d619b43b5a51bb50b8328bb977e88c1b"
+      sha256 "4b0637cb66a34901208e93abe3645b4c36c04d8e8782e3b5dfd04ee5d37e79f7"
     end
   end
 
