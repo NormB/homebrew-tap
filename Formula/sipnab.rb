@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://www.sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.83"
+  version "0.5.84"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.83/sipnab-0.5.83-aarch64-apple-darwin.tar.gz"
-      sha256 "939f7c42c798046c823fe1e34c212604fbe2afbc5be71bf825751bcf73d0ec78"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.84/sipnab-0.5.84-aarch64-apple-darwin.tar.gz"
+      sha256 "cdf33de30051ec372b6e8514aac847e24580a3955e80abb508cb5bb0944e3a5b"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.83/sipnab-0.5.83-x86_64-apple-darwin.tar.gz"
-      sha256 "85c23a661ae0b093be6de2c6d285ec93b5d88b27b61158e2de20f46447377f26"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.84/sipnab-0.5.84-x86_64-apple-darwin.tar.gz"
+      sha256 "e1fe9a17fde66bb8de0d398695a049e83c5267791f7daa4cb588c399da8fc2d3"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.83/sipnab-0.5.83-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "49655dedac52e2d92b34f935b4b99452b506195f2024b4d38382a4cec6eb93cd"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.84/sipnab-0.5.84-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "cbbe3290b604e5b9c9106d812c303477cfb6aea9fec31915a42a81d7e058fd2f"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.83/sipnab-0.5.83-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b3769567fd7b0482571a0f228a77116166c732a5d5b312c585d7c9ea68564ebf"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.84/sipnab-0.5.84-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "8a80ecfaa0e7bfd04a1a90a1b3f354ea9c66e3c56d8aab7044b25a2dca3f0a2d"
     end
   end
 
