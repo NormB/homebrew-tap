@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.98"
+  version "0.5.99"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.98/sipnab-0.5.98-aarch64-apple-darwin.tar.gz"
-      sha256 "ea76d2642a08d21e1baea53a3c1dc2e5b91ff634d8965e75bf5a926e5850c330"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.99/sipnab-0.5.99-aarch64-apple-darwin.tar.gz"
+      sha256 "2a1251829be5d92e3eec45cd491f93d5230ef754f872dcc87f05985f2193e3ff"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.98/sipnab-0.5.98-x86_64-apple-darwin.tar.gz"
-      sha256 "fdca309712e779753f8efbd0a24ce0e5552d0dc7a8a1709923ab64d6fd8a96fd"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.99/sipnab-0.5.99-x86_64-apple-darwin.tar.gz"
+      sha256 "58a6c3215bd5cd25fee3c12cc2f504829556dfd6c0b11f50c3a2210c6e8cbd8c"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.98/sipnab-0.5.98-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "7463e162ed8c539fc1a6593530aa1b88a1f24410e226218bf65e2ce7e58cf1f6"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.99/sipnab-0.5.99-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "1eadc45ebc5aac3aff49302f54966fc526726c904076f934dfb7bb3f164cba89"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.98/sipnab-0.5.98-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d1dcd187c2e11aae200943cf1c89fca423844d78d9d44124b7a277b49c1d3f8f"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.99/sipnab-0.5.99-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "fd8ec92caba279292bbfc936f198edc80cba7abc00fb13772e110a50d6a03fd6"
     end
   end
 
