@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.114"
+  version "0.5.115"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.114/sipnab-0.5.114-aarch64-apple-darwin.tar.gz"
-      sha256 "5a9cb57e78e6eea6cb080e4e7e7b6982c6eac116af0a9b5394ce8e6d9861f39e"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.115/sipnab-0.5.115-aarch64-apple-darwin.tar.gz"
+      sha256 "1d5f283d63c0ea5b5e4cf1621cdd5e8f39e6ff3caaec9e5481fda252f1d1fafe"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.114/sipnab-0.5.114-x86_64-apple-darwin.tar.gz"
-      sha256 "4f318a507b2140e0d1e8ada45f3304da21f8f8f07b04242ce880ecf857d2b06d"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.115/sipnab-0.5.115-x86_64-apple-darwin.tar.gz"
+      sha256 "03f60917821b697a9be461c3f1d85a7828eb7df9d7b91817eb4ad7407413a5cf"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.114/sipnab-0.5.114-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2a49fa89a32eb0e4db995f657ff0df57622d1e3222cdbc5af946ab3a8e474ad6"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.115/sipnab-0.5.115-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "82b3bd13cdd94b4bbbee1c91b3ab1ca38bf52c4c8e90c4cff4b6d4a587bba235"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.114/sipnab-0.5.114-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "9a2c91efc8a8074a352689d37b0c3b2e19ece0eac24be14f5aae225d11e79e85"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.115/sipnab-0.5.115-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5a419c3b0acb6525e1b16fc1bde24f30e1e31f630768a7a80053fa3d318ed28c"
     end
   end
 
