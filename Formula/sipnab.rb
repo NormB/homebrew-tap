@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.120"
+  version "0.5.121"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.120/sipnab-0.5.120-aarch64-apple-darwin.tar.gz"
-      sha256 "45489abba7c6d7a9fead99c7fc4299c5535765aa2911d49c088d81e07229abca"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.121/sipnab-0.5.121-aarch64-apple-darwin.tar.gz"
+      sha256 "6017db10d6c0945bfd864f57f985061d6047b279939f597418763c6acba7b2bb"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.120/sipnab-0.5.120-x86_64-apple-darwin.tar.gz"
-      sha256 "7f6dfd80934b6a98ad45b6b2473b7bb8d2702d569077cfe0ccc726228f286d0a"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.121/sipnab-0.5.121-x86_64-apple-darwin.tar.gz"
+      sha256 "1e335474c394a66fdec244a0dca28ca924772d2ca030f88b6d5949c4ce1831bd"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.120/sipnab-0.5.120-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5ea3a0bb4b4f444257bf84204860c460b5eda807dc431315c1a98cdcb090f5b6"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.121/sipnab-0.5.121-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "8dad14e355ac415cad607e716668371c708b1f83ef63535074b3a44440ca4e01"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.120/sipnab-0.5.120-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "9d85ff2df8098eaa6dbc71145f0310cc6c89c97f6e5cfa9b7b66654f6af333fa"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.121/sipnab-0.5.121-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "1816246d83c1acb2681479e9704636b052604ae7f600c8c8c14902512bc2bc6d"
     end
   end
 
