@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.119"
+  version "0.5.120"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.119/sipnab-0.5.119-aarch64-apple-darwin.tar.gz"
-      sha256 "8330b403d68c6fad03eec9853ba36ed6d5bf413d4104d259c836a12b0df14fd9"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.120/sipnab-0.5.120-aarch64-apple-darwin.tar.gz"
+      sha256 "45489abba7c6d7a9fead99c7fc4299c5535765aa2911d49c088d81e07229abca"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.119/sipnab-0.5.119-x86_64-apple-darwin.tar.gz"
-      sha256 "7c252ae4db0a1a3de1f8bc627a5073d4938597a907eae3d9c9032d75b8dcb956"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.120/sipnab-0.5.120-x86_64-apple-darwin.tar.gz"
+      sha256 "7f6dfd80934b6a98ad45b6b2473b7bb8d2702d569077cfe0ccc726228f286d0a"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.119/sipnab-0.5.119-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "69f9dd76df6b1fe2da7a2a3bb6f3510ff9210788a07f3c42b9af5499044163c1"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.120/sipnab-0.5.120-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "5ea3a0bb4b4f444257bf84204860c460b5eda807dc431315c1a98cdcb090f5b6"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.119/sipnab-0.5.119-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1e422637fa268bf44d9d35f801b10a262ba3f49f18bc053f8544ac6d1719fd6b"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.120/sipnab-0.5.120-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "9d85ff2df8098eaa6dbc71145f0310cc6c89c97f6e5cfa9b7b66654f6af333fa"
     end
   end
 
