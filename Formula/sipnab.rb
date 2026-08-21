@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.118"
+  version "0.5.119"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.118/sipnab-0.5.118-aarch64-apple-darwin.tar.gz"
-      sha256 "3ec61b2807f717ef0666849bfbfdd1893a9e9dad14414554aa8fca237015b4f8"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.119/sipnab-0.5.119-aarch64-apple-darwin.tar.gz"
+      sha256 "8330b403d68c6fad03eec9853ba36ed6d5bf413d4104d259c836a12b0df14fd9"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.118/sipnab-0.5.118-x86_64-apple-darwin.tar.gz"
-      sha256 "ca9ca0114d8437610fd605ef919fe5fc281324bf944a66f796565c68e78a79e9"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.119/sipnab-0.5.119-x86_64-apple-darwin.tar.gz"
+      sha256 "7c252ae4db0a1a3de1f8bc627a5073d4938597a907eae3d9c9032d75b8dcb956"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.118/sipnab-0.5.118-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "88f3f8714be10611f5db138545c2a154abefddd3a0fa7df2be45c5a00c78a9a6"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.119/sipnab-0.5.119-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "69f9dd76df6b1fe2da7a2a3bb6f3510ff9210788a07f3c42b9af5499044163c1"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.118/sipnab-0.5.118-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "bbac5f27ac70f72390ccdaa558f4d49aec994947787438dcc657fc98e24b39c2"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.119/sipnab-0.5.119-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "1e422637fa268bf44d9d35f801b10a262ba3f49f18bc053f8544ac6d1719fd6b"
     end
   end
 
