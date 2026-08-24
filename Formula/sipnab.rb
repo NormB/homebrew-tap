@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.123"
+  version "0.5.124"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.123/sipnab-0.5.123-aarch64-apple-darwin.tar.gz"
-      sha256 "ca0c3bb634327ef3f773dc7fcc9ccaa2686db2e80ade85493443c59ae232a805"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.124/sipnab-0.5.124-aarch64-apple-darwin.tar.gz"
+      sha256 "9879ea6507fde292ef8a94b4f853b5d4af8299033ca3d086212352d37dbf86b5"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.123/sipnab-0.5.123-x86_64-apple-darwin.tar.gz"
-      sha256 "a73160bf9550dafe29343cc37dad5295e857851c6aad174c91ce0b6393aae387"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.124/sipnab-0.5.124-x86_64-apple-darwin.tar.gz"
+      sha256 "2ebd0b4d4abc0c2d5cdd2960d8c42d36d9003b7e591c3adf2847b130478a029e"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.123/sipnab-0.5.123-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6677f4c50801c97c7029cc6fd75079171a25d27ffef270be1cfdf1d3c88b1771"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.124/sipnab-0.5.124-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "bccf00f880a1d575cbe552708a015554bc0011031b42200db6eb459dd9e1b907"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.123/sipnab-0.5.123-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "08ea21156974ba5f3d51b178dd0be7dcf1daf6cb10a8ea1919c24f3bbc7362c9"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.124/sipnab-0.5.124-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "4f18b6f33e5523f04dddf199571177491b9cf71d17dc5ac1b09fc91df00c5945"
     end
   end
 
