@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.127"
+  version "0.5.128"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.127/sipnab-0.5.127-aarch64-apple-darwin.tar.gz"
-      sha256 "fdd6cec613df369b4a37d91d41d5094ef9de899400e2c65ecf94574253660b78"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.128/sipnab-0.5.128-aarch64-apple-darwin.tar.gz"
+      sha256 "5ee1a76f3d246ec9db0ce4db3eec9b37e600ed00f3cd186280fbc90f25663983"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.127/sipnab-0.5.127-x86_64-apple-darwin.tar.gz"
-      sha256 "6003c4eaf175f11c31df22abc171848771a2db17f8413c0cd5c659e2c00955ea"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.128/sipnab-0.5.128-x86_64-apple-darwin.tar.gz"
+      sha256 "17f9f4c32ccb051e789fc029b7cba20facb72b267bea5c63e77eafc797053c30"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.127/sipnab-0.5.127-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "db5671ed4c7405117f4b878f9e0650e2203d5f1190cd12732e4a46d30a937471"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.128/sipnab-0.5.128-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "bcabb82179484daa7f30a85ef0b2e1dc967a50301fc730f7878c08baaf3f2d16"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.127/sipnab-0.5.127-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a1d8ed26b87a9c939a1d87b6139eb80b35c40015073126e4862b3874902a6344"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.128/sipnab-0.5.128-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b6f58733d72b92f3f7be13dcf77736b22b668818a5e3d9e79d713414ad0273ac"
     end
   end
 
