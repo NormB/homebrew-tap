@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.128"
+  version "0.5.129"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.128/sipnab-0.5.128-aarch64-apple-darwin.tar.gz"
-      sha256 "5ee1a76f3d246ec9db0ce4db3eec9b37e600ed00f3cd186280fbc90f25663983"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.129/sipnab-0.5.129-aarch64-apple-darwin.tar.gz"
+      sha256 "deea81f67cea4fbf85181ff8d7b8b3249b80210938fd9f434e4efc9a0a86eb67"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.128/sipnab-0.5.128-x86_64-apple-darwin.tar.gz"
-      sha256 "17f9f4c32ccb051e789fc029b7cba20facb72b267bea5c63e77eafc797053c30"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.129/sipnab-0.5.129-x86_64-apple-darwin.tar.gz"
+      sha256 "4815a42d3eadaf48474d16be5fdda9d630580f680d371bb401781f26b25bdd5e"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.128/sipnab-0.5.128-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "bcabb82179484daa7f30a85ef0b2e1dc967a50301fc730f7878c08baaf3f2d16"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.129/sipnab-0.5.129-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "dfd5738f2be8d0c9251e09eb8b04bfb5e67734bb6751092aaf7a1ea6b54a6e5a"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.128/sipnab-0.5.128-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b6f58733d72b92f3f7be13dcf77736b22b668818a5e3d9e79d713414ad0273ac"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.129/sipnab-0.5.129-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "722a013931e4669cd084c126b4cbcf6133285fb26deedf04caa5fb5f54dcdf8e"
     end
   end
 
