@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.138"
+  version "0.5.139"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.138/sipnab-0.5.138-aarch64-apple-darwin.tar.gz"
-      sha256 "d5b374c1c18195df6ad6a209baf0dcf718640d929a7ddea3736ef7c450d83da9"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.139/sipnab-0.5.139-aarch64-apple-darwin.tar.gz"
+      sha256 "818a7b382efccedcdc64bd0b2ecaf0ee53b1c73b042934d747d3c2fad1ec0a8a"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.138/sipnab-0.5.138-x86_64-apple-darwin.tar.gz"
-      sha256 "c80c33ae91a2b83fb4eeff3f541239a0a27f1df45343f6643eb476192f2e1e5b"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.139/sipnab-0.5.139-x86_64-apple-darwin.tar.gz"
+      sha256 "0b0012c4d33a8d8d64807efef2fbaa94a8fa06e7b3ed4c512cf733b231891705"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.138/sipnab-0.5.138-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "964b1d1fc39aa93fcbde3af7aba9711746ec5e2e0827b7d8c1779f8f8f3c1f23"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.139/sipnab-0.5.139-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c6adc052f4d7cad96db70a1321c71546342abee821dfa0a7a0273f46715fd126"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.138/sipnab-0.5.138-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5ca65bc0727a7289108b84d274fbd4e686ab47eca6c37e3b78bf977b8be890f2"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.139/sipnab-0.5.139-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e69d1980dfbce96b87325ac1be87b18f52856b5281f51ff16dc1f6712fcb169d"
     end
   end
 
