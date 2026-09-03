@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.146"
+  version "0.5.147"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.146/sipnab-0.5.146-aarch64-apple-darwin.tar.gz"
-      sha256 "ab2694393cdd0dc7fb5f50e71f139a9d6a29cada3d1b2e2beb9e3586d1776db7"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.147/sipnab-0.5.147-aarch64-apple-darwin.tar.gz"
+      sha256 "6afa29e0d6e3a45f7f91b7e5c07baa5cbd5b1eb09fe32cc2a602d33b35548584"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.146/sipnab-0.5.146-x86_64-apple-darwin.tar.gz"
-      sha256 "b91cd889f07fd00c560df39bab271be42645d9786533b9242990dd0281910f5c"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.147/sipnab-0.5.147-x86_64-apple-darwin.tar.gz"
+      sha256 "2faed36e3f9646398ab29fc6a06750c896a506817d85addc69ae4e8fc2789ba3"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.146/sipnab-0.5.146-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "191937f11f8d6f8f48627466c72ea837b1e2ac467755c9102ad84922bc254151"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.147/sipnab-0.5.147-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "08c997e523e8b867d18b72a7d7ef1e946d4a9947aa99997c38625d3fcf482ece"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.146/sipnab-0.5.146-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d33d4da03bbb61e6b0905d7ae41a767a741ca19971c526dfe8d06653caaf7cff"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.147/sipnab-0.5.147-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c9da7b28b5f02615eb25e2d39cc23d0dc664e0843beb169a88c2996f40df9261"
     end
   end
 
