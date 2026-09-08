@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.158"
+  version "0.5.159"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.158/sipnab-0.5.158-aarch64-apple-darwin.tar.gz"
-      sha256 "776171b392025af495fa80d9c85154a7dd6477dd33c470c156362a62ebd2e094"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.159/sipnab-0.5.159-aarch64-apple-darwin.tar.gz"
+      sha256 "843315ed3e5caaa16991fab712da7bf8a385fcbdc798ebb3a56fafe4967bb5ad"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.158/sipnab-0.5.158-x86_64-apple-darwin.tar.gz"
-      sha256 "9c6fd67eba2560bcfe5b8bbecb6d3b64367987bc1bf95a6bdb9dea1fe891c46e"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.159/sipnab-0.5.159-x86_64-apple-darwin.tar.gz"
+      sha256 "ae92b8199fa7456dab985a1ee28efb3349f4c68d53c954735ab158f5b300aa95"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.158/sipnab-0.5.158-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "7de6cfe77f3bd50676fd019e18ece7c78cd5b84c1df7d2c9ca936b7a6bb672bc"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.159/sipnab-0.5.159-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "6fa04928e0640161355714095af87f156ed7b52ba9fd66d2eb854a3e1f16a80a"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.158/sipnab-0.5.158-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d4bbde7c0970bfa1beccad7a3c44bbd831f2827298112a94652dfbad21fcbcea"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.159/sipnab-0.5.159-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "9c4726dbcb79a05ccbbe52b90b1205d42a594d97dbe7b34141650373f48c49b1"
     end
   end
 
