@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.160"
+  version "0.5.161"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.160/sipnab-0.5.160-aarch64-apple-darwin.tar.gz"
-      sha256 "af33ec6b7da575d8b375ae896fbd85e6b39f75560a70e51e859821bc4a03b651"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.161/sipnab-0.5.161-aarch64-apple-darwin.tar.gz"
+      sha256 "dffcbbdf9dae110d1da154b26ccdca10b11dd1da4b4be242d8f1bd2e0cfe08b2"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.160/sipnab-0.5.160-x86_64-apple-darwin.tar.gz"
-      sha256 "d4ed92132785ed7bf876c1d166c9a0295be28f5b7d8007ee0b37695a7fcfba70"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.161/sipnab-0.5.161-x86_64-apple-darwin.tar.gz"
+      sha256 "71efd313873fc771a55db4de50427a6f00dffb7daeddacee8cf5b9c668a08755"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.160/sipnab-0.5.160-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "68570fcee58760bcef2b165737554b9d31bdda780eb5af28b3176c205449c859"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.161/sipnab-0.5.161-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c6042b177bffaeba7270ace88555873875afbb1a5b3f8a5a903fd8f6005e5d4b"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.160/sipnab-0.5.160-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "91a07f1f81a9c64b03c0b290bc6714deefbd1eb0559b7426f6fbe6d1a5e67e36"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.161/sipnab-0.5.161-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f092f3c1e61bb9dec1615f0578924636684d04a8eb555c4c0657e18eaa9257b7"
     end
   end
 
