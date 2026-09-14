@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.170"
+  version "0.5.171"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.170/sipnab-0.5.170-aarch64-apple-darwin.tar.gz"
-      sha256 "d1694d58fa19980beac47894cd7eea2293fb308429ef31e4ea5a05c08f8c5724"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.171/sipnab-0.5.171-aarch64-apple-darwin.tar.gz"
+      sha256 "dc1bf45fb4ca9c5a029b02e31fc1caad397e1cbde0c16cab839d9d32331ed6be"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.170/sipnab-0.5.170-x86_64-apple-darwin.tar.gz"
-      sha256 "836765e8125c58db25e4f8ee9bc5f148ead6d3b67185a1ad19470a2271fb3665"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.171/sipnab-0.5.171-x86_64-apple-darwin.tar.gz"
+      sha256 "3b2e400ffdc6d896056233c850281d3bb9213753ac4a4cc88cc12edf4849931f"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.170/sipnab-0.5.170-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "13e90753c7100438eb01c38e8652fc3928d221f379057229700783a0300f308d"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.171/sipnab-0.5.171-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "fa13122ee355ce27db472f87382054e003786ab99d8e9d80d9f61aa0f83adbb8"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.170/sipnab-0.5.170-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7243ff84c6807bd1700c51cc0540233de7487ec6881306d71650acf45393ec5c"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.171/sipnab-0.5.171-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "254c82b3e4764f1fc450c1648ac1c508da6471c6ee5b6d9c9c7ec322c794589c"
     end
   end
 
