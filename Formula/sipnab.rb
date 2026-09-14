@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.171"
+  version "0.5.172"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.171/sipnab-0.5.171-aarch64-apple-darwin.tar.gz"
-      sha256 "dc1bf45fb4ca9c5a029b02e31fc1caad397e1cbde0c16cab839d9d32331ed6be"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.172/sipnab-0.5.172-aarch64-apple-darwin.tar.gz"
+      sha256 "60d96a09de44ed61e3147247c2dcc8a7bd94029eeb619512ebea1e0d365ad9fd"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.171/sipnab-0.5.171-x86_64-apple-darwin.tar.gz"
-      sha256 "3b2e400ffdc6d896056233c850281d3bb9213753ac4a4cc88cc12edf4849931f"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.172/sipnab-0.5.172-x86_64-apple-darwin.tar.gz"
+      sha256 "7358d5bd75e0aacbaf95afbbc63139d4d1e2067a38aa1b68fbe81becd6b14fff"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.171/sipnab-0.5.171-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "fa13122ee355ce27db472f87382054e003786ab99d8e9d80d9f61aa0f83adbb8"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.172/sipnab-0.5.172-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e1156a3826d76daa580fa5c01fccdddbe2e7094859a38ebcf3e1f99716bf3ee1"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.171/sipnab-0.5.171-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "254c82b3e4764f1fc450c1648ac1c508da6471c6ee5b6d9c9c7ec322c794589c"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.172/sipnab-0.5.172-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "49453aa085273775df97912338f96d4b92caef118299b842abe6366768536130"
     end
   end
 
