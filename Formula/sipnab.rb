@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.174"
+  version "0.5.175"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.174/sipnab-0.5.174-aarch64-apple-darwin.tar.gz"
-      sha256 "50a8022138eb4a4a8c7936bc8beaadb31583ae6606394403f58940a0bb3d0e8d"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.175/sipnab-0.5.175-aarch64-apple-darwin.tar.gz"
+      sha256 "d15927de213af76d37b54a6caddb1394c6968225f1676588d794ac5a64c34b70"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.174/sipnab-0.5.174-x86_64-apple-darwin.tar.gz"
-      sha256 "6ce772eb2197a99e0036bedb33c684a06840510b635582a94feff8c1ee802258"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.175/sipnab-0.5.175-x86_64-apple-darwin.tar.gz"
+      sha256 "3801ce9f477291f884abc8cfeed1eeecd5e26d109c3c26b33edb3b46ee5c9ac7"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.174/sipnab-0.5.174-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3b2e62904fdae7f9e9b33dd311e6b6b732d00133b81acf645c930e6a083a7187"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.175/sipnab-0.5.175-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d091be6e063f919f59b9f260f53c6f76e850d0c24603ebf24e401f9637202b2d"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.174/sipnab-0.5.174-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "fe9f33f6311e0e73dd635fb73c941c76c5966d8bd56c13f4659c805b206b8900"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.175/sipnab-0.5.175-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "21b650f5e0341896b7593c793988c4634ec8fdebf08ce599ea39c60c8a879599"
     end
   end
 
