@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.173"
+  version "0.5.174"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.173/sipnab-0.5.173-aarch64-apple-darwin.tar.gz"
-      sha256 "0d6fe0520eee5b68b621cba60eb7d14ec385c939de462a243d3f45aad29657e4"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.174/sipnab-0.5.174-aarch64-apple-darwin.tar.gz"
+      sha256 "50a8022138eb4a4a8c7936bc8beaadb31583ae6606394403f58940a0bb3d0e8d"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.173/sipnab-0.5.173-x86_64-apple-darwin.tar.gz"
-      sha256 "0a43cf2c2d58185b189b585d55928197e36cc78233055a125732798bcb96c0e1"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.174/sipnab-0.5.174-x86_64-apple-darwin.tar.gz"
+      sha256 "6ce772eb2197a99e0036bedb33c684a06840510b635582a94feff8c1ee802258"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.173/sipnab-0.5.173-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b7a575a87c0f52ac6f040f2fe41d307154449b74a1ab74ae22f200102663f193"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.174/sipnab-0.5.174-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "3b2e62904fdae7f9e9b33dd311e6b6b732d00133b81acf645c930e6a083a7187"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.173/sipnab-0.5.173-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1b2917a6698a98dca9a5d4978715033cbba8c6edf3163c733de0521f464bee11"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.174/sipnab-0.5.174-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "fe9f33f6311e0e73dd635fb73c941c76c5966d8bd56c13f4659c805b206b8900"
     end
   end
 
