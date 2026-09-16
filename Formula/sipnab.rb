@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.175"
+  version "0.5.176"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.175/sipnab-0.5.175-aarch64-apple-darwin.tar.gz"
-      sha256 "d15927de213af76d37b54a6caddb1394c6968225f1676588d794ac5a64c34b70"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.176/sipnab-0.5.176-aarch64-apple-darwin.tar.gz"
+      sha256 "e0bfa9df7efec321d3408a8f375ed87669b789857fa4c6839050a2bb35ef5ff4"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.175/sipnab-0.5.175-x86_64-apple-darwin.tar.gz"
-      sha256 "3801ce9f477291f884abc8cfeed1eeecd5e26d109c3c26b33edb3b46ee5c9ac7"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.176/sipnab-0.5.176-x86_64-apple-darwin.tar.gz"
+      sha256 "f914a869a7cc6259854df3ea3dfaad9aad8b8beab520597e84614228fd47b512"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.175/sipnab-0.5.175-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d091be6e063f919f59b9f260f53c6f76e850d0c24603ebf24e401f9637202b2d"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.176/sipnab-0.5.176-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "2ce30c87afa510aa74f1e14c7fe6a86e8675c73b019bdc1780d154629f123618"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.175/sipnab-0.5.175-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "21b650f5e0341896b7593c793988c4634ec8fdebf08ce599ea39c60c8a879599"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.176/sipnab-0.5.176-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b985c023981b3a71bb786d5696518ec82c14ee122a9851dda7268c9015318f37"
     end
   end
 
