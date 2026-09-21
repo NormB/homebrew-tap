@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.182"
+  version "0.5.183"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.182/sipnab-0.5.182-aarch64-apple-darwin.tar.gz"
-      sha256 "a726bd6aa35b7bbdac9dd62d8a426aa4c3dbaa8ed934699451af156ba30bd2f6"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.183/sipnab-0.5.183-aarch64-apple-darwin.tar.gz"
+      sha256 "427de356f274146efcb9b8d8e78a3d8d51c0bb229ad095afb93884ac7bd22cfd"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.182/sipnab-0.5.182-x86_64-apple-darwin.tar.gz"
-      sha256 "b639ad37351e3996c59f57f8d24091c21466a6b4672ec34cb537e48b583ac24e"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.183/sipnab-0.5.183-x86_64-apple-darwin.tar.gz"
+      sha256 "01443374ac84b782d2a1ab22ca17a4948ed9403c1d000dc4b37e2ab5d8d04320"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.182/sipnab-0.5.182-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "77876bbdc1d0922c484e09aee604d17f35c7efa7221f9b8c888653a32cccc7bc"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.183/sipnab-0.5.183-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "1c9799d9fe90d770ccfcba5069f10732b92fbcfc428ef2d6282b17a15e4fd190"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.182/sipnab-0.5.182-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d9224a282e5a6c84550d92cc5646ccd4eaf90c1bce373e952ef1eca5dcf1ecf6"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.183/sipnab-0.5.183-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a211b3bec7c6cf0508ab4ebfe9748edf911a1cbec66e0b8289220ccde5278fb6"
     end
   end
 
