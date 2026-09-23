@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.186"
+  version "0.5.187"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.186/sipnab-0.5.186-aarch64-apple-darwin.tar.gz"
-      sha256 "0656c52b70f09cee7c54396322f15fc4bf46d82b9ee816353c439aeab27326e3"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.187/sipnab-0.5.187-aarch64-apple-darwin.tar.gz"
+      sha256 "a50d43b31941268e0b93c6c1863911c31bc38b4de806694e1f8ab6573c3cac4d"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.186/sipnab-0.5.186-x86_64-apple-darwin.tar.gz"
-      sha256 "9a50199e38c2d43607a75fc50d96a2c3dea67c49890f30d39dfe074b70d8578c"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.187/sipnab-0.5.187-x86_64-apple-darwin.tar.gz"
+      sha256 "f9a85e7e4ec534a91958045e38cdea025c974111a3a0f1bf887f2c6f814e626d"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.186/sipnab-0.5.186-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3095908ce5b0f3ce0fd172b9ad012f4f2d14a56f339a72c9c02cb97822ce6517"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.187/sipnab-0.5.187-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "2887ad2ce76ac3cd5af39961b763821fa6f326365f214fd31396840d45781c1f"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.186/sipnab-0.5.186-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ca4b4fdbcd173a63ce053f08f75af1a53bc1605f4a4802dcf6abda25610124d1"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.187/sipnab-0.5.187-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6dca7b1666c758414e45ad0254fc3a502b4723a043d1f6ecd72552e3a21d1b17"
     end
   end
 
