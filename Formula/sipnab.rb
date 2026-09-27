@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.192"
+  version "0.5.193"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.192/sipnab-0.5.192-aarch64-apple-darwin.tar.gz"
-      sha256 "db577b1e3f361706bfb56fec09857be21a35ba6f08d7e12f85c717279e20ea3a"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.193/sipnab-0.5.193-aarch64-apple-darwin.tar.gz"
+      sha256 "f7b1c6c9586934a48a2b0476e6be47f9c209349ed1b2d87ffe83710848cb9ef7"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.192/sipnab-0.5.192-x86_64-apple-darwin.tar.gz"
-      sha256 "01499a87c7a3dd182f0bc8b82f15aff62a35c2343f0aa791e534d88ef36cc378"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.193/sipnab-0.5.193-x86_64-apple-darwin.tar.gz"
+      sha256 "e74008f04ff32ff4253104c97e1398ffd748292b34ef60fb506a5b4c3df05bc0"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.192/sipnab-0.5.192-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9af46ae1fd7f3630f1d9572fb50aec816e65c965cf3f061336610ae43b215a65"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.193/sipnab-0.5.193-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c34ea8c8a3d7e4477c00ad443757adb33a524f95b41f0f323b5acc22f3024eb1"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.192/sipnab-0.5.192-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8793368ce4aec7e11e3a37219de204a8f470635a011cbf16695275d5e64205dc"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.193/sipnab-0.5.193-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "3478c35b39f43ff703d80955c251d87aa1110190f5e983402ac0578dfaa8d591"
     end
   end
 
