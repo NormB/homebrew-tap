@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.193"
+  version "0.5.194"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.193/sipnab-0.5.193-aarch64-apple-darwin.tar.gz"
-      sha256 "f7b1c6c9586934a48a2b0476e6be47f9c209349ed1b2d87ffe83710848cb9ef7"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.194/sipnab-0.5.194-aarch64-apple-darwin.tar.gz"
+      sha256 "334d07dc791eef65376be60a87a28029bdabd712c21db307a125e96c155de357"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.193/sipnab-0.5.193-x86_64-apple-darwin.tar.gz"
-      sha256 "e74008f04ff32ff4253104c97e1398ffd748292b34ef60fb506a5b4c3df05bc0"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.194/sipnab-0.5.194-x86_64-apple-darwin.tar.gz"
+      sha256 "e1558356726edb07a96c8ecb7b97f15007f6fd27203866033cbe7b007884269b"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.193/sipnab-0.5.193-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c34ea8c8a3d7e4477c00ad443757adb33a524f95b41f0f323b5acc22f3024eb1"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.194/sipnab-0.5.194-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0b3b1838fc07400b897518240694d91981132db31317e69f7a7b9ca77ecae2c1"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.193/sipnab-0.5.193-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3478c35b39f43ff703d80955c251d87aa1110190f5e983402ac0578dfaa8d591"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.194/sipnab-0.5.194-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d48701480e741a1da9e70be0eda220cf4f96cf271f128ffda07d5579338e0e0a"
     end
   end
 
