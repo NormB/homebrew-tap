@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.196"
+  version "0.5.197"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.196/sipnab-0.5.196-aarch64-apple-darwin.tar.gz"
-      sha256 "13341e1965a9fb5deafb4211461a4cf4b7e532da79fb6432c6af1e4e9a902ca0"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.197/sipnab-0.5.197-aarch64-apple-darwin.tar.gz"
+      sha256 "f30aed3f7aa421b4c64c0b8b1343849bb27b0e48d1efc53ad541a7d5297fb34d"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.196/sipnab-0.5.196-x86_64-apple-darwin.tar.gz"
-      sha256 "e4a25935311dd0b39583a367a43e70791a0e66eca73def9ae57f2c2f3485636e"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.197/sipnab-0.5.197-x86_64-apple-darwin.tar.gz"
+      sha256 "cc39d6beede15b38eb0882f466bfa729f0d2d6034cf723160e5e5725bd9ec86e"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.196/sipnab-0.5.196-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "28db1fe36a81fe6dfe00f2c7cd0478f736ffe03739b0d826748bb2ea6e832926"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.197/sipnab-0.5.197-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e1c0cf8f48f9546e6476312ab45ffe4e6debe5559c921eee53b2c8fc6db82fbc"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.196/sipnab-0.5.196-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "9743169fd2c42381b4d4b640157452ec1f62d43d032c79b170df0d1041097af2"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.197/sipnab-0.5.197-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "680c822e8bb827127f3ebe99fc919d522bc63a39c58985945aebc2bed15629ed"
     end
   end
 
