@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.201"
+  version "0.5.202"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.201/sipnab-0.5.201-aarch64-apple-darwin.tar.gz"
-      sha256 "85c1ffa4873f90e089d4ed45b6ef26a052f6df0236bca9fcdc44867154a66b99"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.202/sipnab-0.5.202-aarch64-apple-darwin.tar.gz"
+      sha256 "5ef33f2e13bdae410dbf94086e342f1230f948584c1601b3ab9f05ccd795d0ee"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.201/sipnab-0.5.201-x86_64-apple-darwin.tar.gz"
-      sha256 "92a77e1ffef1ce4671299d4811360b48d8703e39663e83b3aaa16c235e961ff3"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.202/sipnab-0.5.202-x86_64-apple-darwin.tar.gz"
+      sha256 "e3e3fc014b5f1d4da5e730998a71a8d6cc192d68a7295cb6d5373c852bbec4e0"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.201/sipnab-0.5.201-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f4c5e75e854ac2c88b1bf086f107b103e9fa8b3b7da3d18a3872f4b1f9203cca"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.202/sipnab-0.5.202-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c4149086bb3d410d36c15b22f9249ec746975ff6f7d3ffe8011b46a6b59f43db"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.201/sipnab-0.5.201-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "69534e4462686be8b5ac3072c5d5e6aae2235dde14091fadf27ee0f6f7e49587"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.202/sipnab-0.5.202-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "77f6242f041a090a296e7af6c3f895a385a343693414e14f952710edb9ad5813"
     end
   end
 
