@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.210"
+  version "0.5.211"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.210/sipnab-0.5.210-aarch64-apple-darwin.tar.gz"
-      sha256 "38e7fc25481ed9a50a8979a89eb9c39c8b21b64fb95c9e903e169f1cbd7c832d"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.211/sipnab-0.5.211-aarch64-apple-darwin.tar.gz"
+      sha256 "b5a9ea4745662fea8ebf6dcc49ca886658c1a93f48b5252b1ebf0f58ec401d90"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.210/sipnab-0.5.210-x86_64-apple-darwin.tar.gz"
-      sha256 "d4145b0c6acbccae5a5a31df77e63d8fce9a71e8f04f01f372a72e9c1e8d07a5"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.211/sipnab-0.5.211-x86_64-apple-darwin.tar.gz"
+      sha256 "cc38d5f88f615877d22fe8b30d7d133eba0df1108aa9e1ac534a7d5a51005820"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.210/sipnab-0.5.210-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "292665f2cfe49a74ef4651c4f54b7bdfefa13b77ae7bee6311e612ce35ab8d6e"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.211/sipnab-0.5.211-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "eac071291f4214d8b599fe0b5245baafa73c6ae6bd317dc1bb549612fdfa27af"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.210/sipnab-0.5.210-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0a5a050e0c45bebe14b2a01d24c4698c39b1587f1775e1410b93cfd4e1e611f7"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.211/sipnab-0.5.211-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "98cc33207ef8d689a8035f97b5296880c2527a8f1aa0c1c74712f824c6df3527"
     end
   end
 
