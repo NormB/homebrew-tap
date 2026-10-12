@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.213"
+  version "0.5.214"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.213/sipnab-0.5.213-aarch64-apple-darwin.tar.gz"
-      sha256 "dabe2713854db94ec603a32b45afc67e584d61e0772e51c4d7a4b08fdb4d6ed4"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.214/sipnab-0.5.214-aarch64-apple-darwin.tar.gz"
+      sha256 "1970bdd714649e3767c6ae889b63f921a0378c3c7db08c259fae1b73030a8803"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.213/sipnab-0.5.213-x86_64-apple-darwin.tar.gz"
-      sha256 "d8e70310a6f69c212114a4f093744d2c4e3ae0df20d2b7bc2528514ff5cb317c"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.214/sipnab-0.5.214-x86_64-apple-darwin.tar.gz"
+      sha256 "e3bcee399eefd4a12f0b2eca1eb79527f6156717caeb5e888a9de7a2a2edf6f4"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.213/sipnab-0.5.213-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "33e0875bdb2d9dd1c9675d526fd8f3ea9a3a98555817ea74c997406a84ddfd91"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.214/sipnab-0.5.214-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "3b7bad820653df2ea45b30850de3809b3f5ffee08f6da27670de8557120b7314"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.213/sipnab-0.5.213-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "027d7de66b03e46362794685ab095f59cc0a4ad353fb168abcaf47aa0cc13bbf"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.214/sipnab-0.5.214-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "113ad7a8908b912ca20059d79a342cbfc37c13b37e97caf7a8a09c6c36f0db18"
     end
   end
 
