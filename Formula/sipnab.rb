@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.217"
+  version "0.5.218"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.217/sipnab-0.5.217-aarch64-apple-darwin.tar.gz"
-      sha256 "cabe1d4327b45a3b4705eb13d3a6ee719d57462e37792eec6e0b7729b27da79f"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.218/sipnab-0.5.218-aarch64-apple-darwin.tar.gz"
+      sha256 "c3c8fea7c02f0367b44c6168fc6b171aea3d9ab25214321562e2b5f1a33ffd73"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.217/sipnab-0.5.217-x86_64-apple-darwin.tar.gz"
-      sha256 "349e077f491ae056396add8c0e9dd43fac76103ba314858673fb39a32698c8d3"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.218/sipnab-0.5.218-x86_64-apple-darwin.tar.gz"
+      sha256 "9c48664838e31790314af90ca3dd818244af4c509815493e6508409e4385f78e"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.217/sipnab-0.5.217-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "1c5b59dfd8245a5ab55a8960a207e9068855b505b8bebbc6195d4e06c87cf446"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.218/sipnab-0.5.218-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "dd87fde3a36904996902faca7c99a82904ede9d891e460adec844c4a36ef3334"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.217/sipnab-0.5.217-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "aacef37a3ef6855954605ae0ef71cd46a8aa614e38c36bc9316f81dbded35742"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.218/sipnab-0.5.218-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "29ec76ffd31e9a349158190292871b67e922842b3a3ee6a891fc6ca6aa2c6062"
     end
   end
 
