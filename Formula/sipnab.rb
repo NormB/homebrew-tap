@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.219"
+  version "0.5.220"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.219/sipnab-0.5.219-aarch64-apple-darwin.tar.gz"
-      sha256 "40b5103589c420ebb301a92a0491696890b8a85b34210374906a8a9c7b99c1bc"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.220/sipnab-0.5.220-aarch64-apple-darwin.tar.gz"
+      sha256 "aed7655ac363c3fa0d9b17f669e51a4ff408bef6dc0c6fe6daf104ac1b8f87d5"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.219/sipnab-0.5.219-x86_64-apple-darwin.tar.gz"
-      sha256 "52f589ac424f3f2dc686c7450ccef6dced517c4749a5ff23fca9921d78d556eb"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.220/sipnab-0.5.220-x86_64-apple-darwin.tar.gz"
+      sha256 "6b4a7879f0393acf82def53504e05692b03c6af2af1041ae7dd1581782028cde"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.219/sipnab-0.5.219-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a36efd6d84d1d882e9a489972db52ca1b76bc2a335ac5bd77ff3082785d4c88c"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.220/sipnab-0.5.220-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "f61bf388e5a430882e2aa711bc32d17f1d721bb1706378a854616f7bf3cd23d4"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.219/sipnab-0.5.219-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0bbeb0b5519ef82e387f4316af544ecedf513de43432a05833b06fc83fd9a545"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.220/sipnab-0.5.220-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "50a3f20d7319f1f767e3eefdf9e3a5d9b05f89efe4a951a70e234d9053f75faa"
     end
   end
 
