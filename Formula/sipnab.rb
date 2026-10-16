@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.221"
+  version "0.5.222"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.221/sipnab-0.5.221-aarch64-apple-darwin.tar.gz"
-      sha256 "1d43ecd6f17e19e26a5e8a6eb2f72cb1c17aff015384f9c64535b86302118216"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.222/sipnab-0.5.222-aarch64-apple-darwin.tar.gz"
+      sha256 "0f8e9055443dda144fec430c6570835bf1d3a69350a3ab7143bef5fbcfbf0b08"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.221/sipnab-0.5.221-x86_64-apple-darwin.tar.gz"
-      sha256 "baccdaf2e8d1f78019d21903ac94e3e91945400ddd5462c0f1073e87368a7203"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.222/sipnab-0.5.222-x86_64-apple-darwin.tar.gz"
+      sha256 "3312b19689e159b728e9c7ba20b922bdb71f754eaa1641a83903433f69dd7152"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.221/sipnab-0.5.221-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "dea55930a9e8f7ae46abb84378cca7f29e1c733f6e1fa35e9ee9009b0c846a92"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.222/sipnab-0.5.222-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "94c9db20fa4f007e89e86d1b7b397a450101fb854481066659bb63ef51c52d78"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.221/sipnab-0.5.221-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c518fb330237cf756f16232f314092a0c3875a4cef8eef380e4fdc5b965ee65d"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.222/sipnab-0.5.222-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6c644002bfd00a3da1e5643aa9a81a32a2706cbc8548f716685460b5f8763cdc"
     end
   end
 
