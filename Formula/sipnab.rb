@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.226"
+  version "0.5.227"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.226/sipnab-0.5.226-aarch64-apple-darwin.tar.gz"
-      sha256 "35a056eea66ee0ffc0a86a684ad0bad99884ceed28d4a0b72330048dca547816"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.227/sipnab-0.5.227-aarch64-apple-darwin.tar.gz"
+      sha256 "2f78b0364387f7bb3cc9da1a945d8cb5d084e1401a0058a6b266c7d9cba0bacf"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.226/sipnab-0.5.226-x86_64-apple-darwin.tar.gz"
-      sha256 "683c0dbe48f1d384d2557e353b7de486264723bab8b4b506af3342fd13aff9a0"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.227/sipnab-0.5.227-x86_64-apple-darwin.tar.gz"
+      sha256 "5bbc02666265613b29346e5a3783d2cc0f5ff0ce9493100eeb459d9049e09246"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.226/sipnab-0.5.226-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f2dd84f04b7523d6750ab4d9194e108285b20a881777cbc2b87e7a507f92dc5c"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.227/sipnab-0.5.227-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0d93d5e20f30050521b361d7847c498c1e1cc6dcd349e85969bdedb7c25784f5"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.226/sipnab-0.5.226-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c053becd76fe5c1f9d834bb9d651605635240739b8a811204e15676e60e91ade"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.227/sipnab-0.5.227-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "98ab64a77fb6b76ae589540eda675f140e8cb02bae5ec7ba94e2ee7f000a422f"
     end
   end
 
