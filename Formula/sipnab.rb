@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.240"
+  version "0.5.241"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.240/sipnab-0.5.240-aarch64-apple-darwin.tar.gz"
-      sha256 "789a0dab1fc6cb04cff40f6f78b50ad8d070b1b064241e38b5a12c5a651d4e0e"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.241/sipnab-0.5.241-aarch64-apple-darwin.tar.gz"
+      sha256 "6ee95e1627077104ec1a4cfb390fb0ba90c84f7ee09947ac6678f96ca31bfe75"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.240/sipnab-0.5.240-x86_64-apple-darwin.tar.gz"
-      sha256 "405419e553c57bb0a9b75edf8dbac3b36f70a158729579e5943f692256465491"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.241/sipnab-0.5.241-x86_64-apple-darwin.tar.gz"
+      sha256 "79cc3843b7730327fa0af040d9757122df2110dae8eeec18a7c877fecfdf5311"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.240/sipnab-0.5.240-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "7c01bab2a142d0f2ada164939a1ebbcd1644f41135161cbcb7ceb971107f3512"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.241/sipnab-0.5.241-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0722cef31e37187064efa647b84adccfb2b1d422999f2846b70862f2cb4664c0"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.240/sipnab-0.5.240-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8a59de8efb55084b624eb12e22ab64b9a6b1155adbb85dfd3217b022236a0041"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.241/sipnab-0.5.241-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6ef39ab48f4750cc2d7d309b7fa820545c471acc8e79e455a093adda43f72f98"
     end
   end
 
