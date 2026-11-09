@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.241"
+  version "0.5.242"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.241/sipnab-0.5.241-aarch64-apple-darwin.tar.gz"
-      sha256 "6ee95e1627077104ec1a4cfb390fb0ba90c84f7ee09947ac6678f96ca31bfe75"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.242/sipnab-0.5.242-aarch64-apple-darwin.tar.gz"
+      sha256 "e8d1e0ce9455fc09494c4960d267477bf5d26e8c50bb545811af952928948d8b"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.241/sipnab-0.5.241-x86_64-apple-darwin.tar.gz"
-      sha256 "79cc3843b7730327fa0af040d9757122df2110dae8eeec18a7c877fecfdf5311"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.242/sipnab-0.5.242-x86_64-apple-darwin.tar.gz"
+      sha256 "476c086b72bb7c464bd06a4b45afdb034b45f1fd354f85fce32e66e51cc8c4de"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.241/sipnab-0.5.241-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0722cef31e37187064efa647b84adccfb2b1d422999f2846b70862f2cb4664c0"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.242/sipnab-0.5.242-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c85aa38604d59f2c4d8b0ac7e153abfd9ab6fdb5955a7dd1b7d07a72821b9cbb"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.241/sipnab-0.5.241-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6ef39ab48f4750cc2d7d309b7fa820545c471acc8e79e455a093adda43f72f98"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.242/sipnab-0.5.242-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "acdbf3cb037c4f5d4d1b247aa4be3c6109d4483852ef1dc9480ce5a0fca291aa"
     end
   end
 
