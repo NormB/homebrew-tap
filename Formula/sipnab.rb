@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.246"
+  version "0.5.247"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.246/sipnab-0.5.246-aarch64-apple-darwin.tar.gz"
-      sha256 "6da2b877d5ba1254e70c8402d1c5e8276118fc273b1fdebd3ea41131e216ed35"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.247/sipnab-0.5.247-aarch64-apple-darwin.tar.gz"
+      sha256 "b3cdb27e72d8b250bc28c2efcabe580995b0e737bb3ed99ef4b36b28ec1c73cb"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.246/sipnab-0.5.246-x86_64-apple-darwin.tar.gz"
-      sha256 "bca818d9e45da469a2e3f26ef7635f58b20212cf4ca247ef4296ff634a5fd950"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.247/sipnab-0.5.247-x86_64-apple-darwin.tar.gz"
+      sha256 "4ea9c11a84cd9cb97c32b15a573b7bbf0f1794624be69d203d7802dc03f263cc"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.246/sipnab-0.5.246-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "699d31e7ef09b3981abebcc7e2de7d7c3f6cddaae8dd163a02da30f82418c18d"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.247/sipnab-0.5.247-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d9e380dd8a5911702eaf06de8c65d4ef96d40babf2de3797fb98c70b00bb78ec"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.246/sipnab-0.5.246-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "081a4b482250018f4b2d5f068ffb0f77537958022965f78bf93433622ef57e37"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.247/sipnab-0.5.247-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "0eb960ddb369d39ff98329d5faee0c56382a1a11fbfbabef7e923d7120dc399f"
     end
   end
 
