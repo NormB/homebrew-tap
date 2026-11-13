@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.251"
+  version "0.5.252"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.251/sipnab-0.5.251-aarch64-apple-darwin.tar.gz"
-      sha256 "f838b19a469a1b34aec244d3b22b720b02ea7380cb9f2c4ddf3624ce99d65b0a"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.252/sipnab-0.5.252-aarch64-apple-darwin.tar.gz"
+      sha256 "ab88c23c2e9a420d499a40cadcb026fb2f705ee3ef7267e48c8f21c5f38b9697"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.251/sipnab-0.5.251-x86_64-apple-darwin.tar.gz"
-      sha256 "1e015345866efab79d26b016f399c4135bb095e9c487a802cefa3c593dbdfb93"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.252/sipnab-0.5.252-x86_64-apple-darwin.tar.gz"
+      sha256 "0dfcfb0cb19e4b7ff11b3a9a983aef94fac197252bfb8b55da8551e7b63c4f2e"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.251/sipnab-0.5.251-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "762f451c76bfb7981d653b80426717907647abd13dd0981297421bbc1a153c11"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.252/sipnab-0.5.252-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "f8c3a412c7c82b4c934dd51a551818bad7d746a89787a9b7de878e660251bef4"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.251/sipnab-0.5.251-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "eb30d85f9ab36e6320a3e7c375fd55a2fe844e23743c8f4f9b2e6aecc5fbeb8b"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.252/sipnab-0.5.252-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6fbf36d009a55581c6d4aec48636eaa8ef04eda1c8154ca0ef7298b208c23c54"
     end
   end
 
