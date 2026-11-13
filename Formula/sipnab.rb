@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.250"
+  version "0.5.251"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.250/sipnab-0.5.250-aarch64-apple-darwin.tar.gz"
-      sha256 "a78c7ac8168b474fe3b283039da49eed646a9a63fba3a9be08b597bd2d92baad"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.251/sipnab-0.5.251-aarch64-apple-darwin.tar.gz"
+      sha256 "f838b19a469a1b34aec244d3b22b720b02ea7380cb9f2c4ddf3624ce99d65b0a"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.250/sipnab-0.5.250-x86_64-apple-darwin.tar.gz"
-      sha256 "51b0e6f8e6df4d0dcee169e8c26dce80284185e71ca15e17523c5d6d89a3f5b0"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.251/sipnab-0.5.251-x86_64-apple-darwin.tar.gz"
+      sha256 "1e015345866efab79d26b016f399c4135bb095e9c487a802cefa3c593dbdfb93"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.250/sipnab-0.5.250-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d32c37369c2e6cabd3cee9710140b3d2513bae40b870a55e01933bd887e3aedb"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.251/sipnab-0.5.251-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "762f451c76bfb7981d653b80426717907647abd13dd0981297421bbc1a153c11"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.250/sipnab-0.5.250-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8dd0e1c450f90893d409fc1230fb88dd1fc73ebbc4d487f09b4e1c74a2615f9c"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.251/sipnab-0.5.251-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "eb30d85f9ab36e6320a3e7c375fd55a2fe844e23743c8f4f9b2e6aecc5fbeb8b"
     end
   end
 
