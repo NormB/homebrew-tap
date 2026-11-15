@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.256"
+  version "0.5.257"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.256/sipnab-0.5.256-aarch64-apple-darwin.tar.gz"
-      sha256 "d914c5c4e9188fdbf665e013d668b389cb02bcc6c934905dcc726230d01cb022"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.257/sipnab-0.5.257-aarch64-apple-darwin.tar.gz"
+      sha256 "8dcd202d5e21d72bd9bf1c22d13c83d7fb5d787903609f15feba3eb6c397b98a"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.256/sipnab-0.5.256-x86_64-apple-darwin.tar.gz"
-      sha256 "0f271c3f85ccf464c0fcdbaf3f1e56022df6ead854f36062999d25bb66a99c91"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.257/sipnab-0.5.257-x86_64-apple-darwin.tar.gz"
+      sha256 "14fbae7307cc96adf73e5a142514a18c08795b84abacb0a0ef97da8a48dd3978"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.256/sipnab-0.5.256-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "06fe734de43572883a07caabfc5e42e77df726f4137784e6a8be22b911d4f977"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.257/sipnab-0.5.257-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d4fb6549300ce6247ccc84be4fe140746a296ba02888a37fd58022afb07bc492"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.256/sipnab-0.5.256-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0207bab5e001da38e654777b53e8d79ad282f34d330949afd0034bbd7e99905e"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.257/sipnab-0.5.257-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ca856e2d08d966c47fc9af5591a3c30a18cad2eacfd4315ac25d6f3cf50ac460"
     end
   end
 
