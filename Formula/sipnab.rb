@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.262"
+  version "0.5.263"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.262/sipnab-0.5.262-aarch64-apple-darwin.tar.gz"
-      sha256 "c4b23f942cbc8db450da4b2482f4bd5bafecebb463aef987fc3649c354adc4e5"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.263/sipnab-0.5.263-aarch64-apple-darwin.tar.gz"
+      sha256 "d3b990ec6bb19ac8751c0c12629ebcae2ce45d359ae8ee247cf916983b06c49b"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.262/sipnab-0.5.262-x86_64-apple-darwin.tar.gz"
-      sha256 "e7dd7d20e8449f0a73672118e67bfdb6bb6f9cfddc2a73c69d7ae0cb572f5914"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.263/sipnab-0.5.263-x86_64-apple-darwin.tar.gz"
+      sha256 "37504f61cd578092774705f19aebdb63bcf845b076b4f811cd0df8a57cb80690"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.262/sipnab-0.5.262-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a7e09f5ca7524812d42fb9ca5294f20a73552be915fcb5cd081a3a319d7aa9a2"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.263/sipnab-0.5.263-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "023a01a900aa1fd5417b779df3509d77a353ee36a222e546bfa09c790fcc9deb"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.262/sipnab-0.5.262-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "f04846c3295cbe953b150ca8d7a672142ebb0baa40f73180ddf60f8b9c4dca9c"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.263/sipnab-0.5.263-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "66ba393297c856dc9a69ac44eb446727e4cd49d3a611e8258cd2e46cbb707ec1"
     end
   end
 
