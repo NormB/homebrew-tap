@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.264"
+  version "0.5.265"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.264/sipnab-0.5.264-aarch64-apple-darwin.tar.gz"
-      sha256 "e836c0bec00088cc39df59598cb5448649b1770f6f6a6402e3cbdcebe620f734"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.265/sipnab-0.5.265-aarch64-apple-darwin.tar.gz"
+      sha256 "02c52a574926e35a330157c0cd84127536e80d5769f4893ea38f05e31b71d03a"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.264/sipnab-0.5.264-x86_64-apple-darwin.tar.gz"
-      sha256 "3f1dd306e79263e4b6a106cf09935450f8a1908663d1f764fa0c5282468b17bd"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.265/sipnab-0.5.265-x86_64-apple-darwin.tar.gz"
+      sha256 "729f87c9d67e9b2885da5e940759fffd0a9fcafce5d84a286f0a96b761ee75e5"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.264/sipnab-0.5.264-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6a07ce29ae602bb24b81fac9e63db3b3a15c9e3615ab79c5dc718ad5d0c65525"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.265/sipnab-0.5.265-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "f0b0fd1ff47314e842c69c02156d600bcb62765edb2f8bb6461d5bb0d9911e90"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.264/sipnab-0.5.264-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "58d12dca81d28522ed7dc235af52e761fcd7c0908735c2b5c89954451b217abf"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.265/sipnab-0.5.265-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "52d73037d19d09b5f3554665b142f71db90bfd6f152482638ee72e89a2f03065"
     end
   end
 
