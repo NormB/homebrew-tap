@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.267"
+  version "0.5.268"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.267/sipnab-0.5.267-aarch64-apple-darwin.tar.gz"
-      sha256 "e5aacbb912a4a7eb65d727975e627ed609fc4f7a420364e6fb60d0c482fbb798"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.268/sipnab-0.5.268-aarch64-apple-darwin.tar.gz"
+      sha256 "6d5336294b1680ad1fab37b79493f70febe90482e8e08c2a90be892bd32978ab"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.267/sipnab-0.5.267-x86_64-apple-darwin.tar.gz"
-      sha256 "a5a2093c829f34c3997fdc45a92b8409dfdd48585f05511a09f5a23f8d9d9b0c"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.268/sipnab-0.5.268-x86_64-apple-darwin.tar.gz"
+      sha256 "504238d916b23341111e20c8f9f0aa398aed549f0f0a7ffd77317baf095dcffd"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.267/sipnab-0.5.267-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c7642d8637fb92e4145551e4d3f67f86a05d96664707839ac9dff70d7fc4bcd6"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.268/sipnab-0.5.268-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "07da06f6d9cfc3e09ff52b3e7cc35f819a83f908c741deec5eee781af0b17267"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.267/sipnab-0.5.267-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e775d3a0b33a91d4dca7c0f6fdc6576e4a7696fe06083c6a9b5dd63fc63d61b3"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.268/sipnab-0.5.268-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "1057c45d6365f30dd1acf31aecd0b4ff54941072158e267372e5ce1fc743b12d"
     end
   end
 
