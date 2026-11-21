@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.268"
+  version "0.5.269"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.268/sipnab-0.5.268-aarch64-apple-darwin.tar.gz"
-      sha256 "6d5336294b1680ad1fab37b79493f70febe90482e8e08c2a90be892bd32978ab"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.269/sipnab-0.5.269-aarch64-apple-darwin.tar.gz"
+      sha256 "b9acedd04d9660aae5bbab5abdcfcf35b674fa848974d5c64249cd8a68067d8c"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.268/sipnab-0.5.268-x86_64-apple-darwin.tar.gz"
-      sha256 "504238d916b23341111e20c8f9f0aa398aed549f0f0a7ffd77317baf095dcffd"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.269/sipnab-0.5.269-x86_64-apple-darwin.tar.gz"
+      sha256 "5e72ee8d88a911c5de741ed74b24333d9d632e1cfdb3e068fda0bbda8acb42d0"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.268/sipnab-0.5.268-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "07da06f6d9cfc3e09ff52b3e7cc35f819a83f908c741deec5eee781af0b17267"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.269/sipnab-0.5.269-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "ce95ed3293cfe63ae6b18fdd75f0d0cec79ebca69cc1bdad106e2efeba643258"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.268/sipnab-0.5.268-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1057c45d6365f30dd1acf31aecd0b4ff54941072158e267372e5ce1fc743b12d"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.269/sipnab-0.5.269-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6c260e7f7d0fc2569b8ce9236a54a87d8a306f3ab128efe7926ed837db63dd4b"
     end
   end
 
