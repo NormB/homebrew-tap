@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.270"
+  version "0.5.271"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.270/sipnab-0.5.270-aarch64-apple-darwin.tar.gz"
-      sha256 "39fd96f42342aa0f9af8fa10cee3b5e5f86507f9e3f1cab863d9195ae5791077"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.271/sipnab-0.5.271-aarch64-apple-darwin.tar.gz"
+      sha256 "b92defb95e95df049ee79daac3988b0838ec72285a4dfd27a4ad67685d075896"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.270/sipnab-0.5.270-x86_64-apple-darwin.tar.gz"
-      sha256 "4d5f47ab66d17b01ac61cd8bbb1f811c7691627047d69ad7fcba66f5bb6d8192"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.271/sipnab-0.5.271-x86_64-apple-darwin.tar.gz"
+      sha256 "560359a9b0f7c5f78bb951b9e1c109259742ab890e0f21ee7c54b9b226f37f32"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.270/sipnab-0.5.270-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "838fb968115aea5d0fd49c4eecdaf32aec0e631ad30e5625c44fea10601c70ea"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.271/sipnab-0.5.271-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "4d38f16e305586433ee8a89d57a51fb76a403121f2547a4cbd069c3187820e3e"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.270/sipnab-0.5.270-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d9067c813e5262c4aa0c861299550d2384f08b6d578b26de4fa46295019aed5b"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.271/sipnab-0.5.271-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ce74911b4a80126ff02aa32ead225f45f30bfa0d9cea5f6b22435b62b3f1c58a"
     end
   end
 
