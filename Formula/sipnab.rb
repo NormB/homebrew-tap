@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.273"
+  version "0.5.274"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.273/sipnab-0.5.273-aarch64-apple-darwin.tar.gz"
-      sha256 "08c26ec37f15a430e3f04f0bbf8c6b2cfdd8011eb4a8b3ead3d7a49248d8e020"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.274/sipnab-0.5.274-aarch64-apple-darwin.tar.gz"
+      sha256 "c5bfe8f3a10c933c4767db9180f17ccff91818e7cdc277e00db6c9dde45708e2"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.273/sipnab-0.5.273-x86_64-apple-darwin.tar.gz"
-      sha256 "16a3e9a5f649ffef8fe81159fb2ad6bbba9b723062fc6e3f25e533acbbe25728"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.274/sipnab-0.5.274-x86_64-apple-darwin.tar.gz"
+      sha256 "12dffd91cb807afdbf6683fbf3a3a530b57b39f26c084da156ad855698ff89b3"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.273/sipnab-0.5.273-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c2f4b021bde07de467360c3b0bd2bc051b3ac0165792a382fd33d8701cec0e4b"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.274/sipnab-0.5.274-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "cd75e7f1a02b42a720a2f40bdf8b66e3efa6e1f0d42bdce0de6baa4fad6c4796"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.273/sipnab-0.5.273-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "db8f6124b7ecca1f1aa03014072c3b7329823ac89e76c0efbc4ae9e790022da3"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.274/sipnab-0.5.274-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "89c0de1d605a44ab18fda35e6abccb84f19506b9a31c89132094ac084ced1eff"
     end
   end
 
