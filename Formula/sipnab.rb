@@ -2,16 +2,16 @@ class Sipnab < Formula
   desc "SIP & RTP capture, analysis, and security tool"
   homepage "https://sipnab.com"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.276"
+  version "0.5.277"
 
   on_macos do
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.276/sipnab-0.5.276-aarch64-apple-darwin.tar.gz"
-      sha256 "54ce3f654ce3caca0bc561e868548b419cb56a35b85b74eb49810183a4d10d3c"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.277/sipnab-0.5.277-aarch64-apple-darwin.tar.gz"
+      sha256 "93c8b0f42bde67dad1e3e57da9ec0a185ac54abe01ff952fdd798613eff90d7c"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.276/sipnab-0.5.276-x86_64-apple-darwin.tar.gz"
-      sha256 "6ce890c25c69f7bfd20ed42553c82012614a5c08420503c615cf16cb3d47621d"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.277/sipnab-0.5.277-x86_64-apple-darwin.tar.gz"
+      sha256 "a42a036998a994681b327a5c9922aa0646bce1d59c92a0ac2e52d797bf5ceed9"
     end
   end
 
@@ -19,12 +19,12 @@ class Sipnab < Formula
     # The gnu binaries dynamically link libpcap (and need it at runtime).
     depends_on "libpcap"
     on_arm do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.276/sipnab-0.5.276-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "36c49427a4ab1aae7840caed847b2a9bbb573b4a05f064b7aa3c7a209015981d"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.277/sipnab-0.5.277-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b75e32bed9a363963ba600536dfeb7cd400e9071d857dae0afe0b2d9caec166e"
     end
     on_intel do
-      url "https://github.com/NormB/sipnab/releases/download/v0.5.276/sipnab-0.5.276-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "34c565d70b05f1844e1b83f9de5e9b574f5ad687eb651792898c6006cfdb25ee"
+      url "https://github.com/NormB/sipnab/releases/download/v0.5.277/sipnab-0.5.277-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "9d6c7f6fbe87d5b97f9ed101ff1455b20ffaef18d60e42341683481dd7006cb7"
     end
   end
 
